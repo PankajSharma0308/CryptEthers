@@ -8,8 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages build"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "autoprefixer": "^10.4.9",

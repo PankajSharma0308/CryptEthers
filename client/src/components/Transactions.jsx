@@ -1,6 +1,12 @@
+
+
 const Transactions =() => {
     return (
-        <h1>Transactions</h1>
+        <div className="w-full flex justify-center items-center">
+            <p className="text-white flex justify-start items-start p-2 mt-2">
+        
+            </p>
+        </div>
     );
 }
 
