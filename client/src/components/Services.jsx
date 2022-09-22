@@ -1,6 +1,6 @@
 const Services = () => {
     return (
-        <h1>Services</h1>
+        <h1 className="flex w-full justify-center items-center"></h1>
     );
 }
 
