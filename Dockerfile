@@ -5,7 +5,6 @@ WORKDIR /app
 COPY client/package.json .
 COPY smart_contracts/package.json .
 
-
 RUN npm install
 
 COPY . .
