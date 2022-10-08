@@ -13,7 +13,7 @@
 
 # To build the image from the cloned folder
  
- 1. cd [to cryptether project]
+ 1. cd [to_cryptether_project]
  
  2. Config Dockerfile // or use the existing one
  
