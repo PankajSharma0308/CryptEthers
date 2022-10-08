@@ -3,27 +3,27 @@
 
 # To run the webapp
 
-cd [to_cryptether_project]
+ 1. cd [to_cryptether_project]
  
- cd client
+ 2. cd client
  
- npm run dev
+ 3. npm run dev
  
- go to browser :- http://localhost:3000
+ 4. go to browser :- http://localhost:3000
 
 # To build the image from the cloned folder
  
- cd [to cryptether project]
+ 1. cd [to cryptether project]
  
- Config Dockerfile // or use the existing one
+ 2. Config Dockerfile // or use the existing one
  
- run the command for building docker image :- docker build -t [any_name]
+ 3. run the command for building docker image :- docker build -t [any_name]
  
- check if the image is built successfully :- docker images
+ 4. check if the image is built successfully :- docker images
  
- run the container :- docker run -p 8000:3000 -it [the_name_that_you_gave]
+ 5. run the container :- docker run -p 8000:3000 -it [the_name_that_you_gave]
  
- check if the container is running :- docker ps
+ 6. check if the container is running :- docker ps
  
- go to browser :- http://localhost:8000 
+ 7. go to browser :- http://localhost:8000 
 
