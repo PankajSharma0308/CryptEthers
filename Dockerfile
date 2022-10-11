@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add --update nodejs npm
+RUN apk add --update nodejs-lts npm
 
 WORKDIR /app
 
