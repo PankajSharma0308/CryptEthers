@@ -8,6 +8,7 @@ COPY client/package.json .
 COPY smart_contracts/package.json .
 
 RUN npm install
+RUN npm install vite
 
 COPY . .
 
