@@ -1,13 +1,13 @@
 FROM alpine
 
-RUN apk add --update nodejs-lts npm rm -rf /var/lib/apt/lists/
+RUN apk add --update nodejs-lts npm 
 
 WORKDIR /app
 
 COPY client/package.json .
 COPY smart_contracts/package.json .
 
-RUN npm install -f
+RUN npm install
 
 COPY . .
 
