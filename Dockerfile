@@ -15,6 +15,6 @@ EXPOSE 3000
 
 WORKDIR /app/client
 
-CMD ["npm","run","build"]
+CMD ["npm","run","dev"]
 # docker tag local-image:tagname new-repo:tagname
 # docker push new-repo:tagname
