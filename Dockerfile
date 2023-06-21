@@ -8,13 +8,12 @@ COPY client/package.json .
 COPY smart_contracts/package.json .
 
 RUN npm install
+RUN npm install vite -g
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 80
 
 WORKDIR /app/client
 
 CMD ["npm","run","dev"]
-# docker tag local-image:tagname new-repo:tagname
-# docker push new-repo:tagname
